@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+    string msg = null;
+    if (this.IsPost)
+    {
+        if (Request["btnUpdate"] == "Update")
+        {
+            msg = "Record is updated";
+        }
+        else if (Request["btninsert"] == "Insert")
+        {
+            msg = "Record is inserted";
+        }
+
+    }
+    if (ViewData["delvalue"] != null)
+    {
+        int j = (int)ViewData["delvalue"];
+        if (j == 1)
+        {
+            msg = "Record is deleted";
+        }
+        else
+        {
+            msg = "Record is not deleted";
+        }
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+   <form name="myform" method="post">
+       <div>
+           <table border="1">
+               <tr>
+                   <th>Customer No</th>
+                   <th>Customer Name</th>
+                   <th>Customer Loaction</th>
+                   <th>Customer MailId</th>
+                   <th>Edit</th>
+                   <th>Delete</th>
+               </tr>
+               @{ 
+                   foreach (var item in ViewBag.cust)
+                   {
+                       if(item.custid.ToString()==Request.QueryString["cno"])
+                       {
+                           <tr>
+                               <td>
+                                   <input type="text" name="txtcid" value="@item.custid" readonly />
+                               </td>
+                               <td>@item.custname</td>
+                               <td>
+                                   <input type="text" name="txtnewloc" value="@item.custloc" />
+                               </td>
+                               <td>@item.cmailid</td>
+                               <td>
+                                   <input type="submit" name="btnUpdate" value="Update" formaction="~/Cust/UpdateCus" />
+                                   @Html.ActionLink("Cancel", "Cancel")
+                               </td>
+                           </tr>
+                       }
+                       else
+                       {
+                           <tr>
+                               <td>@item.custid</td>
+                               <td>@item.custname</td>
+                               <td>@item.custloc</td>
+                               <td>@item.cmailid</td>
+                               <td>@Html.ActionLink("Edit", "EditCus", new {cno=item.custid })</td>
+                               <td>@Html.ActionLink("Delete", "DeleteCus", new {cno=item.custid})</td>
+                           </tr>
+                       }
+                   }
+               }
+               <tr>
+                   <td>@Html.TextBox("txtcno")</td>
+                   <td>@Html.TextBox("txtcname")</td>
+                   <td>@Html.TextBox("txtcloc")</td>
+                   <td>@Html.TextBox("txtcmail")</td>
+                   <td>
+                       <input type="submit" name="btninsert" value="Insert" formaction="~/Cust/InsertCus" />
+                   </td>
+               </tr>
+           </table>
+           @Html.Label("lblmsg",msg)
+       </div>
+   </form>
+</body>
+</html>
