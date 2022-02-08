@@ -1,0 +1,37 @@
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\csc.exe
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\System.Collections.Immutable.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\System.Reflection.Metadata.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\vbc.exe
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\VBCSCompiler.exe
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\roslyn\VBCSCompiler.exe.config
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\CRUD on Customer Single view EF.dll.config
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\CRUD on Customer Single view EF.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\CRUD on Customer Single view EF.pdb
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\EntityFramework.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\EntityFramework.SqlServer.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\Microsoft.Web.Infrastructure.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Helpers.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Mvc.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Razor.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Webpages.Deployment.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Webpages.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Webpages.Razor.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\EntityFramework.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\EntityFramework.SqlServer.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Razor.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Webpages.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Webpages.Deployment.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Webpages.Razor.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Helpers.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\bin\System.Web.Mvc.xml
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\obj\Debug\CRUD on Customer Single view EF.csprojResolveAssemblyReference.cache
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\obj\Debug\CRUD on Customer Single view EF.dll
+D:\mvc lab\CRUD on Customer Single view EF\CRUD on Customer Single view EF\obj\Debug\CRUD on Customer Single view EF.pdb
